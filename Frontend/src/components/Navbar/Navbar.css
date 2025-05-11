@@ -1,0 +1,135 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.logo-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color:#2874f0;
+  text-decoration: none;
+}
+.right-nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  list-style: none;
+  font-size: large;
+  cursor: pointer;
+}
+.nav-list * {
+  text-decoration: none;
+  color: black;
+}
+.right-nav button {
+  background-color: transparent;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  font-size: medium;
+  transition: 0.5s;
+}
+.right-nav button:hover {
+  color: white;
+  background-color:#2874f0;
+}
+.icon {
+  font-size: larger;
+  cursor: pointer;
+  margin: 10px;
+}
+.active {
+  text-decoration: underline;
+  color:#2874f0;
+}
+.cart-box {
+  position: relative;
+}
+.cart-notification {
+  position: absolute;
+  background:#2874f0;
+  top: 0%;
+  right: 0%;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+@media (max-width:700px) {
+    .nav{
+        font-size: small;
+    }
+    .logo-name{
+        font-size:large;
+    }
+    .nav-list{
+        font-size:small;
+    }
+}
+@media (max-width:500px) {
+    .nav{
+        font-size: small;
+    }
+    .logo-name{
+        font-size:large;
+    }
+    .nav-list{
+        display: none;
+    }
+    button{
+        border-radius: 5px;
+        font-size: smaller;
+    }
+}
+.profiles{
+  position: relative;
+}
+.loggedin-icon{
+  font-size:x-large;
+  color:#2874f0;
+  cursor: pointer;
+}
+
+.navbar-profile{
+  position: relative;
+}
+.navbar-profile-dropdown{
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar-profile:hover .navbar-profile-dropdown{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: whitesmoke;
+  font-size:14px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid#2874f0;
+  outline: 2px solid white;
+  animation: fadeon 0.5s;
+}
+ul li * {
+
+  text-decoration: none;
+}
+.navbar-profile-dropdown *:hover{
+  color:#2874f0;
+  cursor: pointer;
+  background-color: #fff2ef;
+}

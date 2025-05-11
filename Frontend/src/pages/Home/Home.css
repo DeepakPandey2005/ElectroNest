@@ -1,0 +1,84 @@
+.home-container {
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/logo.jpeg");
+  position: relative;
+}
+.home-info {
+  position: absolute;
+  color: white;
+  left: -5%;
+  backdrop-filter: blur(4px);
+  animation: fadeon 2s;
+  bottom: 20%;
+  margin-left: 100px;
+  width: 50%;
+  border-radius: 20%;
+}
+.home-info-heading {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 50px;
+  font-family: monospace;
+}
+.home-info-text {
+  font-size: larger;
+}
+.home-info-btn {
+  padding: 10px;
+  border: none;
+  background-color:#2874f0;
+  color: black;
+  margin-top: 40px;
+  font-size: larger;
+  border-radius: 10px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.home-info-btn:hover {
+  scale: 1.05;
+}
+.category-head {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 900;
+}
+.category-text {
+  font-weight: 300;
+  margin: 10px;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 50px;
+}
+@media (max-width:900px) {
+    .home-container{
+        background-color: red;
+    }
+    .home-info-heading{
+        font-size: xx-large;
+
+    }
+    .home-info-text{
+        font-size:large;
+    }
+}
+
+@media (max-width:500px) {
+
+    .home-info{
+        position: static;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+    .home-info-heading{
+    font-size:x-large;    
+    text-align: left;
+    }
+    .home-info-text{
+        font-size: large;
+    }
+    
+}

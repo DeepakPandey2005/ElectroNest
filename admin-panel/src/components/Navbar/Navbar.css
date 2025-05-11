@@ -1,0 +1,19 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar-container span{
+    font-size:1.5rem;
+    color: #2874f0;
+    font-weight: 700;
+}
+.navbar-container p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.admin-logo{
+    font-size: 2rem;
+    color: #a9a9a9;
+    cursor: pointer;
+}

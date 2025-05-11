@@ -1,0 +1,45 @@
+.details {
+  margin-bottom: 50px;
+}
+.details p {
+  font-size: larger;
+  margin: 10px;
+}
+.input {
+  display: flex;
+  width: 25vw;
+  gap: 15px;
+}
+.input input {
+  margin: 3px;
+  padding: 8px;
+  outline-color:#2874f0;
+  border: 1px solid #706d6d;
+  border-radius: 5px;
+}
+.enter-detail span {
+  font-weight: 688;
+}
+.enter-detail {
+  display: flex;
+  gap: 5px;
+}
+.orders-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+}
+.details-container{
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width:1200px) {
+  .orders-container{
+    flex-direction: column;   
+  }
+  
+}

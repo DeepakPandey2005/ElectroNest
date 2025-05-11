@@ -1,0 +1,27 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;;
+    margin: 20px;
+}
+.title{
+    margin-top: 50px;
+   font-size: larger;
+   font-weight: bold;
+}
+.list-items{
+display: grid;
+grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 0.5fr;
+align-items: center;
+gap: 50px;
+padding: 12px 15px;
+border: 1px solid #cacaca;
+font-size:18px;
+}
+.list-items img{
+    width: 50px;
+}
+.del-icon{
+    font-size: larger;
+    cursor: pointer;
+}

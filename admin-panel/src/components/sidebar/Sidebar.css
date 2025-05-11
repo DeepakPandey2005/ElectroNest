@@ -1,0 +1,44 @@
+.sidebar{
+    border: 1px solid #a9a9a9;
+    min-height: 100vh;
+    width:16%;
+}
+.sidebar .container{
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding:30px 0px 0px 30px;
+}
+
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    border: 1px solid #a9a9a9;
+    border-right: none;
+    gap: 10px;
+    padding: 10px;
+    font-size:medium;
+}.sidebar-option *{
+    font-size: x-large;
+}
+.sidebar .container .active{
+    background-color: #fff0ed;
+    border-color: #2874f0;
+
+}
+.sidebar-option p{
+    font-weight: 400;
+    font-size:medium;
+    margin-left: 10px;
+}
+@media (max-width:700px) {
+    .sidebar-option p{
+        display: none;
+    }
+    .sidebar{
+        width: 30%;
+    }
+    .app-content p{
+        font-size: smaller;
+    }
+}
